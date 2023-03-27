@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cntrTitle">
+        <div class="cntrH1TitleEsquerda cntrH1title">
+            <h1>Olá, já tem uma conta conosco?</h1>
+            <p>Para se manter conectado conosco, faça o login com suas informações pessoais</p>
+        </div>
+        <div class="cntrH1TitleDireita cntrH1title">
+            <h1>Olá, primeira vez aqui?</h1>
+            <p>Preencha seus dados pessoas para criar uma conta conosco</p>
+        </div>
+    </div>
+
+    <div class="cntrLogin">
+        <div class="cntrConteudoLogin">
+            <button class="btnMod" onclick="bntMod()">
+                <p class="textBtnSignIn">cadastrar</p>
+            </button>
+        </div>
+        <div class="molaLogin"></div>
+    </div>
+
+    <div class="cntrCadastro">
+        <div class="cntrConteudoCadastro">
+            <h1 class="titleConteudo">Faça login em sua conta</h1>
+            <div class="cntrSvgModEntradas">
+                <div class="cntrIcons">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 100 100" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M40.4 55.2h-9.9c-1.6 0-2.1-.6-2.1-2.1V41c0-1.6.6-2.1 2.1-2.1h9.9v-8.8c0-4 .7-7.8 2.7-11.3 2.1-3.6 5.1-6 8.9-7.4 2.5-.9 5-1.3 7.7-1.3h9.8c1.4 0 2 .6 2 2v11.4c0 1.4-.6 2-2 2-2.7 0-5.4 0-8.1.1-2.7 0-4.1 1.3-4.1 4.1-.1 3 0 5.9 0 9h11.6c1.6 0 2.2.6 2.2 2.2V53c0 1.6-.5 2.1-2.2 2.1H57.3v32.6c0 1.7-.5 2.3-2.3 2.3H42.5c-1.5 0-2.1-.6-2.1-2.1V55.2z" fill="#000000" data-original="#000000" class=""></path></g></svg>
+                </div>
+                
+                <div class="cntrIcons">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M113.47 309.408 95.648 375.94l-65.139 1.378C11.042 341.211 0 299.9 0 256c0-42.451 10.324-82.483 28.624-117.732h.014L86.63 148.9l25.404 57.644c-5.317 15.501-8.215 32.141-8.215 49.456.002 18.792 3.406 36.797 9.651 53.408z" style="" fill="#fbbb00" data-original="#fbbb00"></path><path d="M507.527 208.176C510.467 223.662 512 239.655 512 256c0 18.328-1.927 36.206-5.598 53.451-12.462 58.683-45.025 109.925-90.134 146.187l-.014-.014-73.044-3.727-10.338-64.535c29.932-17.554 53.324-45.025 65.646-77.911h-136.89V208.176h245.899z" style="" fill="#518ef8" data-original="#518ef8" class=""></path><path d="m416.253 455.624.014.014C372.396 490.901 316.666 512 256 512c-97.491 0-182.252-54.491-225.491-134.681l82.961-67.91c21.619 57.698 77.278 98.771 142.53 98.771 28.047 0 54.323-7.582 76.87-20.818l83.383 68.262z" style="" fill="#28b446" data-original="#28b446" class=""></path><path d="m419.404 58.936-82.933 67.896C313.136 112.246 285.552 103.82 256 103.82c-66.729 0-123.429 42.957-143.965 102.724l-83.397-68.276h-.014C71.23 56.123 157.06 0 256 0c62.115 0 119.068 22.126 163.404 58.936z" style="" fill="#f14336" data-original="#f14336" class=""></path></g></svg>
+                </div>
+
+                <div class="cntrIcons">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 100 100" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M90 90V60.7c0-14.4-3.1-25.4-19.9-25.4-8.1 0-13.5 4.4-15.7 8.6h-.2v-7.3H38.3V90h16.6V63.5c0-7 1.3-13.7 9.9-13.7 8.5 0 8.6 7.9 8.6 14.1v26H90zM11.3 36.6h16.6V90H11.3zM19.6 10c-5.3 0-9.6 4.3-9.6 9.6s4.3 9.7 9.6 9.7 9.6-4.4 9.6-9.7-4.3-9.6-9.6-9.6z" fill="#000000" data-original="#000000"></path></g></svg>
+                </div>
+            </div>
+            <p>ou use sua conta de e-mail:</p>
+            <div class="cntrForm">
+                <div class="cntrInput cntrInputNome">
+                    <svg class="iconInput" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 19.738 19.738" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M18.18 19.738h-2c0-3.374-2.83-6.118-6.311-6.118s-6.31 2.745-6.31 6.118h-2c0-4.478 3.729-8.118 8.311-8.118 4.581 0 8.31 3.64 8.31 8.118zM9.87 10.97a5.492 5.492 0 0 1-5.484-5.485A5.49 5.49 0 0 1 9.87 0c3.025 0 5.486 2.46 5.486 5.485S12.895 10.97 9.87 10.97zm0-8.97C7.948 2 6.385 3.563 6.385 5.485S7.948 8.97 9.87 8.97c1.923 0 3.486-1.563 3.486-3.485S11.791 2 9.87 2z" style="" fill="#010002" data-original="#010002"></path></g></svg>               
+                    <input type="text" name="nomeCadastrar" id="nomeCadastrar" placeholder="Nome">
+                </div>
+                <p class="alerta" id="alertaNome">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 90 90" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M45.109 58.026a5.733 5.733 0 0 1 5.734 5.74 5.73 5.73 0 0 1-5.734 5.729c-3.167 0-5.734-2.563-5.734-5.729s2.567-5.734 5.734-5.74zm-2.417-37.443h4.839c2.271 0 4.099 2.109 4.099 4.729l-1.438 23.229c0 2.62-1.833 4.729-5.083 4.729s-5.078-2.109-5.078-4.729l-1.438-23.229c.001-2.619 1.829-4.729 4.099-4.729zm2.417-11.426c-19.817 0-35.885 16.063-35.885 35.885 0 19.817 16.067 35.88 35.885 35.88 19.816.006 35.884-16.063 35.884-35.88 0-19.822-16.067-35.885-35.884-35.885z" fill="#000000" data-original="#000000"></path></g></svg>
+                    Preencha corretamente
+                </p>
+                <div class="cntrInput cntrInputEmail">
+                    <svg class="iconInput" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M452 68H60C26.916 68 0 94.916 0 128v256c0 33.084 26.916 60 60 60h392c33.084 0 60-26.916 60-60V128c0-33.084-26.916-60-60-60zm20 316c0 11.028-8.972 20-20 20H60c-11.028 0-20-8.972-20-20V128c0-11.028 8.972-20 20-20h392c11.028 0 20 8.972 20 20v256z" fill="#000000" data-original="#000000" class=""></path><path d="M468.604 92.937 256 251.074 43.396 92.937l-23.874 32.095L256 300.926l236.478-175.894z" fill="#000000" data-original="#000000" class=""></path></g></svg>
+                    <input type="email" name="emailCadastrar" id="emailCadastrar" placeholder="Email">
+                </div>
+                <p class="alerta" id="alertaEmail">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 90 90" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M45.109 58.026a5.733 5.733 0 0 1 5.734 5.74 5.73 5.73 0 0 1-5.734 5.729c-3.167 0-5.734-2.563-5.734-5.729s2.567-5.734 5.734-5.74zm-2.417-37.443h4.839c2.271 0 4.099 2.109 4.099 4.729l-1.438 23.229c0 2.62-1.833 4.729-5.083 4.729s-5.078-2.109-5.078-4.729l-1.438-23.229c.001-2.619 1.829-4.729 4.099-4.729zm2.417-11.426c-19.817 0-35.885 16.063-35.885 35.885 0 19.817 16.067 35.88 35.885 35.88 19.816.006 35.884-16.063 35.884-35.88 0-19.822-16.067-35.885-35.884-35.885z" fill="#000000" data-original="#000000"></path></g></svg>
+                    Preencha corretamente
+                </p>
+                <div class="cntrInput cntrInputSenha">
+                    <svg class="iconInput" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M400 188h-36.037v-82.23c0-58.322-48.449-105.77-108-105.77s-108 47.448-108 105.77V188H112c-33.084 0-60 26.916-60 60v204c0 33.084 26.916 60 60 60h288c33.084 0 60-26.916 60-60V248c0-33.084-26.916-60-60-60zm-212.037-82.23c0-36.266 30.505-65.77 68-65.77s68 29.504 68 65.77V188h-136v-82.23zM420 452c0 11.028-8.972 20-20 20H112c-11.028 0-20-8.972-20-20V248c0-11.028 8.972-20 20-20h288c11.028 0 20 8.972 20 20v204z" fill="#000000" data-original="#000000" class=""></path><path d="M256 286c-20.435 0-37 16.565-37 37 0 13.048 6.76 24.51 16.963 31.098V398c0 11.045 8.954 20 20 20 11.045 0 20-8.955 20-20v-43.855C286.207 347.565 293 336.08 293 323c0-20.435-16.565-37-37-37z" fill="#000000" data-original="#000000" class=""></path></g></svg>                
+                    <input type="password" name="senhaCadastrar" id="senhaCadastrar" placeholder="Senha">
+                    <div onclick="visibilidadeSenha('.olhoFechado')" class="cntrSvgOlhosSenha olhoFechado">
+                        <svg class="visibilidadeSenha" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 64 64" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><g data-name="Layer 85"><path d="M61.59 30.79C61.06 30.08 48.26 13.5 32 13.5a24.84 24.84 0 0 0-4.6.44 2 2 0 1 0 .74 3.93A20.89 20.89 0 0 1 32 17.5c11.9 0 22.23 10.82 25.41 14.5a55.56 55.56 0 0 1-6.71 6.55 2 2 0 1 0 2.54 3.09 56.15 56.15 0 0 0 8.35-8.43 2 2 0 0 0 0-2.42zM48.4 42.29l-8.8-8.8-9.09-9.09-7.82-7.82L12.25 6.14A2 2 0 0 0 9.43 9l8.49 8.49a55.12 55.12 0 0 0-15.51 13.3 2 2 0 0 0 0 2.42C2.94 33.92 15.74 50.5 32 50.5a29.57 29.57 0 0 0 14.67-4.29L55 54.57a2 2 0 0 0 2.83-2.83zM28.82 28.36l6.83 6.83a4.84 4.84 0 1 1-6.83-6.83zM32 46.5C20.1 46.5 9.77 35.68 6.59 32a50.36 50.36 0 0 1 14.28-11.59L26 25.53A8.83 8.83 0 1 0 38.47 38l5.27 5.27A25 25 0 0 1 32 46.5z" fill="#000000" data-original="#000000" class=""></path></g></g></svg>
+                    </div>
+                    <div onclick="visibilidadeSenha('.olhoAberto')" class="cntrSvgOlhosSenha olhoAberto">
+                        <svg class="visibilidadeSenha" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="512" height="512" x="0" y="0" viewBox="0 0 489.935 489.935" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M486.617 255.067c4.6-6.3 4.4-14.9-.5-21-74.1-91.1-154.1-137.3-237.9-137.3-142.1 0-240.8 132.4-244.9 138-4.6 6.3-4.4 14.9.5 21 74 91.2 154 137.4 237.8 137.4 142.1 0 240.8-132.4 245-138.1zm-245 103.8c-69.8 0-137.8-38.4-202.4-114 25.3-29.9 105.7-113.8 209-113.8 69.8 0 137.8 38.4 202.4 114-25.3 29.9-105.7 113.8-209 113.8z" fill="#000000" data-original="#000000"></path><path d="M244.917 157.867c-48 0-87.1 39.1-87.1 87.1s39.1 87.1 87.1 87.1 87.1-39.1 87.1-87.1-39.1-87.1-87.1-87.1zm0 139.9c-29.1 0-52.8-23.7-52.8-52.8s23.7-52.8 52.8-52.8 52.8 23.7 52.8 52.8-23.7 52.8-52.8 52.8z" fill="#000000" data-original="#000000"></path></g></svg>
+                    </div>
+
+                </div>
+                <p class="alerta" id="alertaSenha"></p>
+
+                <p class="esqueceuSenha">Esqueceu sua senha?</p>
+
+                <button onclick="btnSubmitClick()" class="btnSubmit">Entrar</button>
+
+            </div>
+        </div>
+        <div class="molaCadastro"></div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!--Ancora-->

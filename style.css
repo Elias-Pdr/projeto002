@@ -1,0 +1,434 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    overflow: hidden;
+}
+button{
+    cursor: pointer;
+}
+
+
+
+
+.cntrLogin{
+    position: absolute;
+
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+
+.cntrConteudoLogin{
+    background-color: #3aa7ae;
+    width: 40%;
+    height: 100vh;
+    position: relative;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.molaLogin{
+    width: 0%;
+    height: 20px;
+    position: relative;
+}
+
+@keyframes molaLogin {
+    0%{
+        width: 60%;
+    }
+    100%{
+        width: 0%;
+    }
+}
+@keyframes molaLoginReverse {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes widthLogin {
+    0%{
+        width: 40%;
+    }
+    50%{
+        width: 60%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+.cntrTitle{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    z-index: 101;
+}
+.cntrTitle > div{
+    text-align: center;
+    width: 40%;
+}
+
+
+.cntrH1TitleEsquerda{
+    position: relative;
+    left: -50%;
+    top: 32vh;
+    color: white;
+}
+
+.cntrH1title h1{
+    font-size: 2.7em;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+.cntrH1title p{
+    font-size: 1.3em;
+    width: 80%;
+    margin: auto;
+    line-height: 26px;
+}
+
+@keyframes cntrH1TitleEsquerda {
+    0%{
+        left: -50%;
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    100%{
+        left: 0%;
+    }
+}
+@keyframes cntrH1TitleEsquerdaReverse {
+    0%{
+        left: 0%;
+        opacity: 1;
+
+    }
+    99%{
+        opacity: 1;
+    }
+    100%{
+        left: -40%;
+        opacity: 0;
+
+    }
+}
+
+
+.cntrH1TitleDireita{
+    position: relative;
+    right: 0%;
+    top: 32vh;
+    color: white;
+
+}
+@keyframes cntrH1TitleDireita {
+    0%{
+        right: -50%;
+        opacity: 0;
+    }
+    99%{
+        opacity: 1;
+    }
+    100%{
+        right: 0%;
+        opacity: 1;
+    }
+}
+@keyframes cntrH1TitleDireitaReverse {
+    0%{
+        right: 0%;
+        opacity: 1;
+    }
+    30%{
+        opacity: 0;
+    }
+    100%{
+        right: -50%;
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+.cntrCadastro{
+    position: absolute;
+
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+@keyframes cntrCadastro {
+    0%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.cntrConteudoCadastro{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.molaCadastro{
+    width: 40%;
+    height: 20px;
+}
+
+
+.cntrConteudoCadastro h1{
+    width: 100%;
+    text-align: center;
+    color: #3aa7ae;
+    font-size: 3em;
+    margin-bottom: 33px;
+    margin-top: 100px;
+}
+.cntrSvgModEntradas{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.cntrIcons{
+    border: 1px solid #ddd;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.cntrIcons:nth-child(2){
+    margin: 0px 10px;
+}
+.cntrSvgModEntradas svg{
+    width: 100%;
+    height: 100%;
+}
+.cntrConteudoCadastro > p{
+    margin-top: 33px;
+}
+
+
+
+@keyframes molaCadastro {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes molaCadastroReverse {
+    0%{
+        width: 40%;
+    }
+    100%{
+        width: 0%;
+    }
+}
+
+
+
+
+.btnMod{
+    padding: 16px 20px;
+    width: 70%;
+    cursor: pointer;
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 50px;
+    background: none;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 60vh;
+
+}
+
+
+.textBtnSignUp{
+    position: relative;
+}
+.textBtnSignIn{
+    position: relative;
+
+}
+.btnMod:active .textBtnSignIn{
+    font-size: .9em;
+}
+.btnMod:hover{
+    background-color: #379ca3;
+}
+.btnMod:active{
+    background-color: hsla(184, 50%, 43%, 0.5);
+}
+
+@keyframes textBtnSignIn {
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+
+
+
+.cntrForm{
+    width: 62%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cntrInput{
+    background-color: #eee;
+    width: 100%;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-top: 16px;
+}
+.cntrInputNome{
+    display: none;
+    margin-top: 0px;
+
+}
+.iconInput{
+    width: 20px;
+    height: 20px;
+    margin-right: 14px;
+}
+.cntrInput svg *{
+    fill: #929594;
+}
+.cntrInput input{
+    border: none;
+    background: none;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    font-size: 1em;
+}
+.esqueceuSenha{
+    font-size: 1em;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 6px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: block;
+
+}
+.btnSubmit{
+    padding: 16px 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+    color: white;
+    background-color: #3aa7ae;
+    width: 60%;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.btnSubmit:active .textBtnSignIn{
+    font-size: .9em;
+}
+.btnSubmit:hover{
+    background-color: #379ca3;
+}
+.btnSubmit:active{
+    background-color: #3aa7ae;
+}
+
+
+
+.cntrSvgOlhosSenha{
+    width: 45px;
+    height: 30px;
+    cursor: pointer;
+    padding-right: 15px;
+}
+.visibilidadeSenha{
+    width: 26px;
+    height: 30px;
+}
+.olhoAberto{
+    display: none;
+}
+
+.alerta{
+    display: none;
+    align-items: center;
+    color: #dd2a1d;
+    width: 100%;
+    height: 0px;
+    opacity: 0;
+    font-size: 14px;
+    margin-top: 5px;
+    animation: alerta 1s both;
+}
+@keyframes alerta {
+    0%{
+        height: 0px;
+        opacity: 0;
+    }
+    100%{
+        height: 20px;
+        opacity: 1;
+    }
+}
+
+.alerta svg{
+    width: 18px;
+    height: 18px;
+    margin: 0px 8px;
+}
+.alerta svg path{
+    fill: #dd2a1d;
+}
+
+/*  
+    ancora
+*/
